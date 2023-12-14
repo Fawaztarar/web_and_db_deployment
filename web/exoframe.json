@@ -1,0 +1,12 @@
+{
+  "name": "fawaztarar-message-web",
+  "domain": "fawaztarar-messages.xf.mkrs.link",
+  "port": 5000,
+  "env": {
+    "APP_ENV": "PRODUCTION",
+    "POSTGRES_HOSTNAME": "fawaztarar-message-database",
+    "POSTGRES_PASSWORD": "@fawaztarar-postgres-password"
+  }
+}
+
+

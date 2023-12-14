@@ -1,0 +1,10 @@
+{
+  "name": "fawaztarar-message-database",
+  "domain": false,
+  "hostname": "fawaztarar-message-database",
+  "image": "postgres:12",
+  "env": {
+    "POSTGRES_PASSWORD": "@fawaztarar-postgres-password"
+  },
+  "volumes": ["fawaztarar_message_database_volume:/var/lib/postgresql/data"]
+}
